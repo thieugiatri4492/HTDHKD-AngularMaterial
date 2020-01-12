@@ -14,6 +14,7 @@ import {
 } from '@angular/router';
 import { DOCUMENT } from '@angular/common';
 
+
 @Component({
   selector: 'app-spinner',
   template: `<div class="preloader" *ngIf="isSpinnerVisible">
