@@ -20,15 +20,38 @@ mat-toolbar{
             display: flex;
             line-height: 18px;
             align-items: center;
+            position: relative;
             .dark-logo {
                 display: none;
+            }
+            .light-logo{
+              height: 30px;
+              width: 40px;
+              position: absolute;
+              top: 0;
+              transform: translateX(-50%);
+            }
+            .logo-text{
+              margin-left: 20px;
+              font-size: 11px;
+              font-weight: 900;
+              text-transform: uppercase;
+              background-image: linear-gradient(to right, $color-secondary-lightred, $color-secondary-darkred);
+              -webkit-background-clip: text;
+              color: transparent;
+              letter-spacing: .2rem;
             }
             b {
                margin-right: 5px;
             }
         }
+     
     }
-    
+    .nav-dropdown{
+      width: 80%;
+      color: $inverse-dark ;
+      transform: translateX(-10%);
+    }
     .profile-pic{
         width: 40px;
         height: 40px;
