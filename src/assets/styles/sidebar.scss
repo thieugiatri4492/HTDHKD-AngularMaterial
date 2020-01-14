@@ -10,11 +10,19 @@ Main sidebar
 ******************/
 
 mat-sidenav {
-  width: 240px;
+  width: 250px;
   padding-top: 0px;
 }
 #snav{
     box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+    .mat-expansion-panel{
+        .mat-expansion-panel-header{
+            &:hover{
+                background-color: $themecolor-alt;
+              
+            }
+        }
+    } 
     .mat-list-item {
         height: auto;
         &:hover{

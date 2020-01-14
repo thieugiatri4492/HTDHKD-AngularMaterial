@@ -16,7 +16,8 @@ import {
     MatSidenavModule,
     MatToolbarModule,
     MatFormFieldModule,
-    MatSelectModule
+    MatSelectModule,
+    MatExpansionModule
 } from '@angular/material';
 
 @NgModule({
@@ -33,7 +34,8 @@ import {
         MatSidenavModule,
         MatToolbarModule,
         MatFormFieldModule,
-        MatSelectModule
+        MatSelectModule,
+        MatExpansionModule
     ],
     declarations: [FullComponent, AppHeaderComponent,AppSidebarComponent ]
 
